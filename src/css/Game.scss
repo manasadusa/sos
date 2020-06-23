@@ -1,0 +1,27 @@
+.outline{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    top:50%;
+    left:45%;
+   
+    position: absolute;
+    
+
+}
+.square{
+ float: left;
+    height: 50px;
+    width: 50px;
+    border:1px solid black;
+    text-align: center;
+
+    &:hover{
+        cursor: pointer;
+        color: white;
+        background-color:grey;
+    
+    }
+
+}
+
